@@ -1,0 +1,32 @@
+/* Position the pagination bullets 30px below the image */
+.swiper-pagination {
+    position: absolute;
+    bottom: 30px; /* Move 30px down from the bottom of the swiper */
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+    box-shadow: none;
+    border-radius: 40px;
+  
+    width: 600;
+  }
+  
+  .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+    margin: 10px;
+  }
+  
+  .swiper-pagination-bullet-active {
+    color: #bd1515;
+    background: #58de3a;
+  }
+  
+  
